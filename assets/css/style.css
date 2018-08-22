@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 nav {
     background-color: #fff;
     border-bottom: 2px;
@@ -7,7 +11,7 @@ nav {
 }
 
 body {
-    background-image: "assets/images/full-bloom";
+    background-image: url("assets/images/full-bloom.png");
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     width: 960px;
 }
@@ -49,6 +53,8 @@ p {
     color: #777;
     padding-top: 10px;
     padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 footer {
@@ -76,6 +82,17 @@ form{
 
 input {
     width: 100%;
+    display: block;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    width: 80px;
+    color: #fff;
+}
+
+input:hover {
+    background-color: #ccc;
 }
 
 a:hover {
@@ -91,15 +108,7 @@ a:hover {
     height: 20px;
 }
 
-#profilepic {
-    width: 328px;
-    height: 184px;
-    float: left;
-    margin-right: 12px;
-    padding-top: 10px;
-}
-
-#maincontent {
+.maincontent {
     background-color: #fff;
     border-color: #ddd;
     border-width: 2px;
@@ -109,8 +118,21 @@ a:hover {
 }
 
 
-#centerelements {
+.centerelements {
     margin: auto;
+}
+
+.imgclass {
+    width: 200px;
+    height: auto;
+    float: left;
+    margin-right: 12px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.contactform {
+    margin: 10px;
 }
 
 #product1 {
