@@ -89,6 +89,7 @@ input[type=submit] {
     background-color: #4aaaa5;
     width: 80px;
     color: #fff;
+    cursor: pointer;
 }
 
 input:hover {
@@ -97,6 +98,7 @@ input:hover {
 
 a:hover {
     color: #4aaaa5;
+    cursor: pointer;
 }
 
 .clearfix {
